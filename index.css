@@ -1,20 +1,20 @@
-html, body {
-    margin: 0;
-    padding: 0;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
 }
 
-.hero{
-    background-color:  #6943ff;
-    padding: 30px;
-    color: white;
-    font-size: 18px;
-    text-align: center;
-    
+.hero {
+  background-color: #6943ff;
+  padding: 30px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
 }
 
-
-#input-el{
-    text-align: center;
+#input-el {
+  text-align: center;
   font-weight: bolder;
   font-size: 48px;
   border: 2px solid #b295ff;
@@ -28,30 +28,42 @@ html, body {
   display: block;
 }
 
-#submit-btn{
-    margin-top: 10px;
-    font-size: 22px;
-    padding: 5px 10px;
+#submit-btn {
+  margin-top: 10px;
+  font-size: 22px;
+  padding: 5px 10px;
 }
 
-
-
-.display-conitner{
-    width: 450px;
-    height: 150px;
-    background-color: white;
-   border : 2px solid  #5A537B;
-   border-radius: 10px;
-    align-items: center;
-     margin: 10px auto;
-     text-align: center;
-     padding:10px;
-     font-size:14px;
-     padding-top: 20px;
+.display-conitner {
+  width: 450px;
+  height: 150px;
+  background-color: white;
+  border: 2px solid #5a537b;
+  border-radius: 10px;
+  align-items: center;
+  margin: 10px auto;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  padding-top: 20px;
 }
 
-.display-out{
-    font-size: 16px;
-    margin-top: 10px;
-    font-weight: 500;
+.display-out {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+footer {
+  background-color: #000000;
+  color: white;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #f8d210;
+  text-decoration: none;
 }
